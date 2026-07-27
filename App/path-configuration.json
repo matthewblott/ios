@@ -1,0 +1,54 @@
+{
+  "rules": [
+    {
+      "patterns": [
+        ".*"
+      ],
+      "properties": {
+        "context": "default",
+        "pull_to_refresh_enabled": true
+      }
+    },
+    {
+      "patterns": [
+        "^/$"
+      ],
+      "properties": {
+        "context": "default",
+        "pull_to_refresh_enabled": true,
+        "presentation": "replace_root"
+      }
+    },
+    {
+      "patterns": [
+        "^/[a-zA-Z0-9-]+/home/?$"
+      ],
+      "properties": {
+        "context": "default",
+        "pull_to_refresh_enabled": true,
+        "presentation": "replace_root"
+      }
+    },
+    {
+      "patterns": [
+        "^/[a-zA-Z0-9-]+/workouts/?$"
+      ],
+      "properties": {
+        "context": "default",
+        "pull_to_refresh_enabled": true,
+        "presentation": "default"
+      }
+    },
+    {
+      "patterns": [
+        "^/[a-zA-Z0-9-]+/workouts/[0-9]+/exercises/?$"
+      ],
+      "properties": {
+        "context": "default",
+        "pull_to_refresh_enabled": true,
+        "presentation": "default"
+      }
+    }
+  ]
+}
+
