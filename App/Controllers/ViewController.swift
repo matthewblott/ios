@@ -1,11 +1,11 @@
+import HotwireNative
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: HotwireWebViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
-    let label = UILabel(frame: CGRect(x: 0, y: 100, width: view.frame.width, height: 50))
-    label.text = "Hello World"
-    label.textAlignment = .center
-    view.addSubview(label)
+    let properties = Hotwire.config.pathConfiguration.properties(for: currentVisitableURL)
+    let hideBack = properties["hide_back_button"] as? Bool ?? false
+    navigationItem.hidesBackButton = hideBack
   }
 }

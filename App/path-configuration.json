@@ -16,7 +16,8 @@
       "properties": {
         "context": "default",
         "pull_to_refresh_enabled": true,
-        "presentation": "replace_root"
+        "presentation": "replace_root",
+        "hide_back_button": true
       }
     },
     {
@@ -26,7 +27,8 @@
       "properties": {
         "context": "default",
         "pull_to_refresh_enabled": true,
-        "presentation": "replace_root"
+        "presentation": "replace_root",
+        "hide_back_button": true
       }
     },
     {
