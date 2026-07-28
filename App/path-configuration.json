@@ -92,6 +92,15 @@
     },
     {
       "patterns": [
+        "^/[a-zA-Z0-9-]+/settings/exercises/[0-9]+?$"
+      ],
+      "properties": {
+        "context": "modal",
+        "presentation": "default"
+      }
+    },
+    {
+      "patterns": [
         "^/[a-zA-Z0-9-]+/workouts/?$"
       ],
       "properties": {
