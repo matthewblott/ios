@@ -4,8 +4,9 @@ import UIKit
 class ViewController: HotwireWebViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
-    let properties = Hotwire.config.pathConfiguration.properties(for: currentVisitableURL)
-    let hideBack = properties["hide_back_button"] as? Bool ?? false
+//    let properties = Hotwire.config.pathConfiguration.properties(for: currentVisitableURL)
+//    let hideBack = properties["hide_back_button"] as? Bool ?? false
+    let hideBack = true
     navigationItem.hidesBackButton = hideBack
   }
 }

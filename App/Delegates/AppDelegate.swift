@@ -11,6 +11,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     Hotwire.registerBridgeComponents([
       SessionComponent.self,
       BridgeComponents.ButtonComponent.self,
+      BackComponent.self,
     ])
     let localPathConfigURL = Bundle.main.url(forResource: "path-configuration", withExtension: "json")!
 
