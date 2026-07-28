@@ -14,10 +14,26 @@
         "^/$"
       ],
       "properties": {
-        "context": "default",
-        "pull_to_refresh_enabled": true,
         "presentation": "replace_root",
         "hide_back_button": true
+      }
+    },
+    {
+      "patterns": [
+        "^/auth/sign-in/?$"
+      ],
+      "properties": {
+        "context": "modal",
+        "presentation": "default"
+      }
+    },
+    {
+      "patterns": [
+        "^/auth/verify.*$"
+      ],
+      "properties": {
+        "context": "modal",
+        "presentation": "default"
       }
     },
     {
@@ -25,10 +41,53 @@
         "^/[a-zA-Z0-9-]+/home/?$"
       ],
       "properties": {
-        "context": "default",
-        "pull_to_refresh_enabled": true,
         "presentation": "replace_root",
         "hide_back_button": true
+      }
+    },
+    {
+      "patterns": [
+        "^/[a-zA-Z0-9-]+/account/register/?$"
+      ],
+      "properties": {
+        "context": "modal",
+        "presentation": "default"
+      }
+    },
+    {
+      "patterns": [
+        "^/[a-zA-Z0-9-]+/account/verify.*$"
+      ],
+      "properties": {
+        "context": "modal",
+        "presentation": "default"
+      }
+    },
+    {
+      "patterns": [
+        "^/[a-zA-Z0-9-]+/account/rename/?$"
+      ],
+      "properties": {
+        "context": "modal",
+        "presentation": "default"
+      }
+    },
+    {
+      "patterns": [
+        "^/[a-zA-Z0-9-]+/account/sign-out/?$"
+      ],
+      "properties": {
+        "context": "modal",
+        "presentation": "default"
+      }
+    },
+    {
+      "patterns": [
+        "^/[a-zA-Z0-9-]+/account/delete/?$"
+      ],
+      "properties": {
+        "context": "modal",
+        "presentation": "default"
       }
     },
     {
@@ -36,8 +95,6 @@
         "^/[a-zA-Z0-9-]+/workouts/?$"
       ],
       "properties": {
-        "context": "default",
-        "pull_to_refresh_enabled": true,
         "presentation": "default"
       }
     },
@@ -46,8 +103,15 @@
         "^/[a-zA-Z0-9-]+/workouts/[0-9]+/exercises/?$"
       ],
       "properties": {
-        "context": "default",
-        "pull_to_refresh_enabled": true,
+        "presentation": "default"
+      }
+    },
+    {
+      "patterns": [
+        "^(/[a-zA-Z0-9-]+)*/new/?$"
+      ],
+      "properties": {
+        "context": "modal",
         "presentation": "default"
       }
     }
