@@ -18,17 +18,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     Hotwire.loadPathConfiguration(from: [
       .file(localPathConfigURL),
     ])
-    Hotwire.config.makeCustomWebView = { config in
-      config.websiteDataStore = WKWebsiteDataStore.default()
-      let webView = WKWebView(frame: .zero, configuration: config)
-      
-      if #available(iOS 16.4, *) {
-        webView.isInspectable = true
-      }
-      
-      return webView
-    }
-
     Hotwire.config.defaultViewController = { ViewController(url: $0) }
     Hotwire.config.applicationUserAgentPrefix = "Hotwire Native;"
     return true
