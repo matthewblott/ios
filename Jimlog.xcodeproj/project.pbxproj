@@ -12,16 +12,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C93883DF300A35AA00DA3CB5 /* GymApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C93883DF300A35AA00DA3CB5 /* Jimlog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jimlog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		C93883F1300A35AB00DA3CB5 /* Exceptions for "App" folder in "GymApp" target */ = {
+		C93883F1300A35AB00DA3CB5 /* Exceptions for "App" folder in "Jimlog" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Configuration/Info.plist,
 			);
-			target = C93883DE300A35AA00DA3CB5 /* GymApp */;
+			target = C93883DE300A35AA00DA3CB5 /* Jimlog */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -29,7 +29,7 @@
 		C93883E1300A35AA00DA3CB5 /* App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				C93883F1300A35AB00DA3CB5 /* Exceptions for "App" folder in "GymApp" target */,
+				C93883F1300A35AB00DA3CB5 /* Exceptions for "App" folder in "Jimlog" target */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -60,7 +60,7 @@
 		C93883E0300A35AA00DA3CB5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C93883DF300A35AA00DA3CB5 /* GymApp.app */,
+				C93883DF300A35AA00DA3CB5 /* Jimlog.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -68,9 +68,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C93883DE300A35AA00DA3CB5 /* GymApp */ = {
+		C93883DE300A35AA00DA3CB5 /* Jimlog */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C93883F2300A35AB00DA3CB5 /* Build configuration list for PBXNativeTarget "GymApp" */;
+			buildConfigurationList = C93883F2300A35AB00DA3CB5 /* Build configuration list for PBXNativeTarget "Jimlog" */;
 			buildPhases = (
 				C93883DB300A35AA00DA3CB5 /* Sources */,
 				C93883DC300A35AA00DA3CB5 /* Frameworks */,
@@ -83,13 +83,13 @@
 			fileSystemSynchronizedGroups = (
 				C93883E1300A35AA00DA3CB5 /* App */,
 			);
-			name = GymApp;
+			name = Jimlog;
 			packageProductDependencies = (
 				C9388408300A360100DA3CB5 /* HotwireNative */,
 				C9D4309D300B78D800509327 /* BridgeComponents */,
 			);
-			productName = MyApp;
-			productReference = C93883DF300A35AA00DA3CB5 /* GymApp.app */;
+			productName = Jimlog;
+			productReference = C93883DF300A35AA00DA3CB5 /* Jimlog.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -107,7 +107,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C93883DA300A35AA00DA3CB5 /* Build configuration list for PBXProject "GymApp" */;
+			buildConfigurationList = C93883DA300A35AA00DA3CB5 /* Build configuration list for PBXProject "Jimlog" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -125,7 +125,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C93883DE300A35AA00DA3CB5 /* GymApp */,
+				C93883DE300A35AA00DA3CB5 /* Jimlog */,
 			);
 		};
 /* End PBXProject section */
@@ -171,7 +171,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.matthewblott.MyApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewblott.Jimlog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -179,7 +179,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -203,7 +203,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.matthewblott.MyApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewblott.Jimlog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -211,7 +211,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -339,7 +339,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C93883DA300A35AA00DA3CB5 /* Build configuration list for PBXProject "GymApp" */ = {
+		C93883DA300A35AA00DA3CB5 /* Build configuration list for PBXProject "Jimlog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C93883F5300A35AB00DA3CB5 /* Debug */,
@@ -348,7 +348,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C93883F2300A35AB00DA3CB5 /* Build configuration list for PBXNativeTarget "GymApp" */ = {
+		C93883F2300A35AB00DA3CB5 /* Build configuration list for PBXNativeTarget "Jimlog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C93883F3300A35AB00DA3CB5 /* Debug */,
